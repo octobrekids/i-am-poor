@@ -8,6 +8,12 @@ void main() {
           title: Text('I am poor'),
           backgroundColor: Colors.redAccent.shade100,
         ),
+        backgroundColor: Colors.grey.shade900,
+        body: Center(
+          child: Image(
+            image: AssetImage('images/cherry-1.png'),
+          ),
+        ),
       ),
     ),
   );
